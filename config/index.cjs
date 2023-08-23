@@ -13,6 +13,23 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '9c37a5b07aa888f404ab09e3b2c219ca',
 
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+
+    /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: true,
+
+    
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
+    
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: true,
+  },
+
   PROVINCE: '黑龙江',
   CITY: '绥化',
 
@@ -45,7 +62,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-02-05' },
          // 相识纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-11-10' },
       ],
     }
   ],
